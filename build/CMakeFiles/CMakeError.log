@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/longxing/Rifdock/rifdock/build/CMakeFiles/CMakeTmp
+Change Dir: /home/longxing/devel/rifdock-lx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_73e4f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_73e4f.dir/build.make CMakeFiles/cmTC_73e4f.dir/build
-make[1]: Entering directory '/home/longxing/Rifdock/rifdock/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_73e4f.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_73e4f.dir/CheckSymbolExists.c.o   -c /home/longxing/Rifdock/rifdock/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_73e4f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73e4f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_73e4f.dir/CheckSymbolExists.c.o  -o cmTC_73e4f -rdynamic 
-CMakeFiles/cmTC_73e4f.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_3cf2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cf2e.dir/build.make CMakeFiles/cmTC_3cf2e.dir/build
+make[1]: Entering directory '/home/longxing/devel/rifdock-lx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3cf2e.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3cf2e.dir/CheckSymbolExists.c.o   -c /home/longxing/devel/rifdock-lx/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3cf2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cf2e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3cf2e.dir/CheckSymbolExists.c.o  -o cmTC_3cf2e -rdynamic 
+CMakeFiles/cmTC_3cf2e.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_73e4f.dir/build.make:97: recipe for target 'cmTC_73e4f' failed
-make[1]: *** [cmTC_73e4f] Error 1
-make[1]: Leaving directory '/home/longxing/Rifdock/rifdock/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_73e4f/fast' failed
-make: *** [cmTC_73e4f/fast] Error 2
+CMakeFiles/cmTC_3cf2e.dir/build.make:97: recipe for target 'cmTC_3cf2e' failed
+make[1]: *** [cmTC_3cf2e] Error 1
+make[1]: Leaving directory '/home/longxing/devel/rifdock-lx/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3cf2e/fast' failed
+make: *** [cmTC_3cf2e/fast] Error 2
 
-File /home/longxing/Rifdock/rifdock/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/longxing/devel/rifdock-lx/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/longxing/Rifdock/rifdock/build/CMakeFiles/CMakeTmp
+Change Dir: /home/longxing/devel/rifdock-lx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22f80/fast"
-/usr/bin/make -f CMakeFiles/cmTC_22f80.dir/build.make CMakeFiles/cmTC_22f80.dir/build
-make[1]: Entering directory '/home/longxing/Rifdock/rifdock/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_22f80.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_22f80.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_22f80
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22f80.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_22f80.dir/CheckFunctionExists.c.o  -o cmTC_22f80 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_2d770/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d770.dir/build.make CMakeFiles/cmTC_2d770.dir/build
+make[1]: Entering directory '/home/longxing/devel/rifdock-lx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d770.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2d770.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2d770
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d770.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2d770.dir/CheckFunctionExists.c.o  -o cmTC_2d770 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_22f80.dir/build.make:97: recipe for target 'cmTC_22f80' failed
-make[1]: *** [cmTC_22f80] Error 1
-make[1]: Leaving directory '/home/longxing/Rifdock/rifdock/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_22f80/fast' failed
-make: *** [cmTC_22f80/fast] Error 2
+CMakeFiles/cmTC_2d770.dir/build.make:97: recipe for target 'cmTC_2d770' failed
+make[1]: *** [cmTC_2d770] Error 1
+make[1]: Leaving directory '/home/longxing/devel/rifdock-lx/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2d770/fast' failed
+make: *** [cmTC_2d770/fast] Error 2
 
 

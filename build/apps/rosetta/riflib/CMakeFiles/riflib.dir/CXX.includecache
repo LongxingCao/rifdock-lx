@@ -2304,11 +2304,11 @@ cstddef
 stdint.h
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/EtableParams_init.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/EtableParams_init.cc
 riflib/EtableParams_init.hh
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/riflib/EtableParams_init.hh
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/riflib/EtableParams_init.hh
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/HBondedPairGenerator.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/HBondedPairGenerator.cc
 riflib/HBondedPairGenerator.hh
 -
 core/pack/rotamers/SingleResidueRotamerLibrary.hh
@@ -2318,7 +2318,7 @@ core/pack/rotamers/SingleResidueRotamerLibraryFactory.hh
 Eigen/Geometry
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/RifFactory.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/RifFactory.cc
 riflib/RifFactory.hh
 -
 riflib/util.hh
@@ -2360,7 +2360,7 @@ riflib/scaffold/ScaffoldDataCache.hh
 complex
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/RotamerGenerator.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/RotamerGenerator.cc
 riflib/RotamerGenerator.hh
 -
 riflib/util.hh
@@ -2424,7 +2424,7 @@ ObjexxFCL/format.hh
 utility/io/ozstream.hh
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc
 riflib/rif/RifGeneratorApoHSearch.hh
 -
 ObjexxFCL/FArray3D.hh
@@ -2498,7 +2498,7 @@ boost/random/mersenne_twister.hpp
 boost/random/uniform_real.hpp
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc
 riflib/rif/RifGeneratorSimpleHbonds.hh
 -
 ObjexxFCL/FArray3D.hh
@@ -2576,7 +2576,7 @@ boost/random/mersenne_twister.hpp
 boost/random/uniform_real.hpp
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc
 riflib/rif/RifGeneratorUserHotspots.hh
 -
 basic/options/keys/in.OptionKeys.gen.hh
@@ -2632,7 +2632,7 @@ scheme/objective/storage/RotamerScores.hh
 scheme/actor/BackboneActor.hh
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/make_hbond_geometries.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/make_hbond_geometries.cc
 riflib/rif/make_hbond_geometries.hh
 -
 ObjexxFCL/FArray3D.hh
@@ -2728,7 +2728,7 @@ utility/io/ozstream.hh
 utility/tools/make_vector1.hh
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rosetta_field.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rosetta_field.cc
 riflib/rosetta_field.hh
 -
 scheme/objective/hash/XformMap.hh
@@ -2768,7 +2768,7 @@ exception
 stdexcept
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rotamer_energy_tables.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rotamer_energy_tables.cc
 riflib/rotamer_energy_tables.hh
 -
 riflib/util.hh
@@ -2824,7 +2824,7 @@ exception
 stdexcept
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc
 riflib/types.hh
 -
 riflib/scaffold/Baseline9AScaffoldProvider.hh
@@ -2846,7 +2846,7 @@ boost/any.hpp
 boost/format.hpp
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc
 riflib/types.hh
 -
 riflib/scaffold/MorphingScaffoldProvider.hh
@@ -2866,13 +2866,13 @@ boost/any.hpp
 boost/format.hpp
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/NineAManager.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/NineAManager.cc
 riflib/types.hh
 -
 riflib/scaffold/NineAManager.hh
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc
 riflib/scaffold/SingleFileScaffoldProvider.hh
 -
 riflib/scaffold/util.hh
@@ -2894,7 +2894,7 @@ vector
 boost/any.hpp
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/util.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/util.cc
 riflib/scaffold/util.hh
 -
 riflib/types.hh
@@ -2946,7 +2946,7 @@ core/import_pose/import_pose.hh
 utility/file/file_sys_util.hh
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/riflib/util.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/riflib/util.cc
 riflib/util.hh
 -
 ObjexxFCL/format.hh

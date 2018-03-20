@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/longxing/Rifdock/rifdock
+CMAKE_SOURCE_DIR = /home/longxing/devel/rifdock-lx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/longxing/Rifdock/rifdock/build
+CMAKE_BINARY_DIR = /home/longxing/devel/rifdock-lx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/longxing/Rifdock/rifdock/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/longxing/Rifdock/rifdock/build/CMakeFiles /home/longxing/Rifdock/rifdock/build/apps/rosetta/CMakeFiles/progress.marks
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/longxing/Rifdock/rifdock/build/CMakeFiles 0
+	cd /home/longxing/devel/rifdock-lx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/longxing/devel/rifdock-lx/build/CMakeFiles /home/longxing/devel/rifdock-lx/build/apps/rosetta/CMakeFiles/progress.marks
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longxing/devel/rifdock-lx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/clean
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/preinstall
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/preinstall
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/longxing/Rifdock/rifdock/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/longxing/devel/rifdock-lx/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 apps/rosetta/CMakeFiles/test_librosetta.dir/rule:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/CMakeFiles/test_librosetta.dir/rule
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/CMakeFiles/test_librosetta.dir/rule
 .PHONY : apps/rosetta/CMakeFiles/test_librosetta.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ test_librosetta: apps/rosetta/CMakeFiles/test_librosetta.dir/rule
 
 # fast build rule for target.
 test_librosetta/fast:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/test_librosetta.dir/build.make apps/rosetta/CMakeFiles/test_librosetta.dir/build
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/test_librosetta.dir/build.make apps/rosetta/CMakeFiles/test_librosetta.dir/build
 .PHONY : test_librosetta/fast
 
 # Convenience name for target.
 apps/rosetta/CMakeFiles/rifgen.dir/rule:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/CMakeFiles/rifgen.dir/rule
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/CMakeFiles/rifgen.dir/rule
 .PHONY : apps/rosetta/CMakeFiles/rifgen.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ rifgen: apps/rosetta/CMakeFiles/rifgen.dir/rule
 
 # fast build rule for target.
 rifgen/fast:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/rifgen.dir/build.make apps/rosetta/CMakeFiles/rifgen.dir/build
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/rifgen.dir/build.make apps/rosetta/CMakeFiles/rifgen.dir/build
 .PHONY : rifgen/fast
 
 # Convenience name for target.
 apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/rule:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/rule
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/rule
 .PHONY : apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ scheme_make_bounding_grids: apps/rosetta/CMakeFiles/scheme_make_bounding_grids.d
 
 # fast build rule for target.
 scheme_make_bounding_grids/fast:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/build.make apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/build
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/build.make apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/build
 .PHONY : scheme_make_bounding_grids/fast
 
 # Convenience name for target.
 apps/rosetta/CMakeFiles/rif_dock_test.dir/rule:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/CMakeFiles/rif_dock_test.dir/rule
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f CMakeFiles/Makefile2 apps/rosetta/CMakeFiles/rif_dock_test.dir/rule
 .PHONY : apps/rosetta/CMakeFiles/rif_dock_test.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ rif_dock_test: apps/rosetta/CMakeFiles/rif_dock_test.dir/rule
 
 # fast build rule for target.
 rif_dock_test/fast:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/rif_dock_test.dir/build.make apps/rosetta/CMakeFiles/rif_dock_test.dir/build
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/rif_dock_test.dir/build.make apps/rosetta/CMakeFiles/rif_dock_test.dir/build
 .PHONY : rif_dock_test/fast
 
 rif_dock_test.o: rif_dock_test.cc.o
@@ -220,7 +220,7 @@ rif_dock_test.o: rif_dock_test.cc.o
 
 # target to build an object file
 rif_dock_test.cc.o:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/rif_dock_test.dir/build.make apps/rosetta/CMakeFiles/rif_dock_test.dir/rif_dock_test.cc.o
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/rif_dock_test.dir/build.make apps/rosetta/CMakeFiles/rif_dock_test.dir/rif_dock_test.cc.o
 .PHONY : rif_dock_test.cc.o
 
 rif_dock_test.i: rif_dock_test.cc.i
@@ -229,7 +229,7 @@ rif_dock_test.i: rif_dock_test.cc.i
 
 # target to preprocess a source file
 rif_dock_test.cc.i:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/rif_dock_test.dir/build.make apps/rosetta/CMakeFiles/rif_dock_test.dir/rif_dock_test.cc.i
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/rif_dock_test.dir/build.make apps/rosetta/CMakeFiles/rif_dock_test.dir/rif_dock_test.cc.i
 .PHONY : rif_dock_test.cc.i
 
 rif_dock_test.s: rif_dock_test.cc.s
@@ -238,7 +238,7 @@ rif_dock_test.s: rif_dock_test.cc.s
 
 # target to generate assembly for a file
 rif_dock_test.cc.s:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/rif_dock_test.dir/build.make apps/rosetta/CMakeFiles/rif_dock_test.dir/rif_dock_test.cc.s
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/rif_dock_test.dir/build.make apps/rosetta/CMakeFiles/rif_dock_test.dir/rif_dock_test.cc.s
 .PHONY : rif_dock_test.cc.s
 
 rifgen.o: rifgen.cc.o
@@ -247,7 +247,7 @@ rifgen.o: rifgen.cc.o
 
 # target to build an object file
 rifgen.cc.o:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/rifgen.dir/build.make apps/rosetta/CMakeFiles/rifgen.dir/rifgen.cc.o
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/rifgen.dir/build.make apps/rosetta/CMakeFiles/rifgen.dir/rifgen.cc.o
 .PHONY : rifgen.cc.o
 
 rifgen.i: rifgen.cc.i
@@ -256,7 +256,7 @@ rifgen.i: rifgen.cc.i
 
 # target to preprocess a source file
 rifgen.cc.i:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/rifgen.dir/build.make apps/rosetta/CMakeFiles/rifgen.dir/rifgen.cc.i
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/rifgen.dir/build.make apps/rosetta/CMakeFiles/rifgen.dir/rifgen.cc.i
 .PHONY : rifgen.cc.i
 
 rifgen.s: rifgen.cc.s
@@ -265,7 +265,7 @@ rifgen.s: rifgen.cc.s
 
 # target to generate assembly for a file
 rifgen.cc.s:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/rifgen.dir/build.make apps/rosetta/CMakeFiles/rifgen.dir/rifgen.cc.s
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/rifgen.dir/build.make apps/rosetta/CMakeFiles/rifgen.dir/rifgen.cc.s
 .PHONY : rifgen.cc.s
 
 scheme_make_bounding_grids.o: scheme_make_bounding_grids.cc.o
@@ -274,7 +274,7 @@ scheme_make_bounding_grids.o: scheme_make_bounding_grids.cc.o
 
 # target to build an object file
 scheme_make_bounding_grids.cc.o:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/build.make apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/scheme_make_bounding_grids.cc.o
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/build.make apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/scheme_make_bounding_grids.cc.o
 .PHONY : scheme_make_bounding_grids.cc.o
 
 scheme_make_bounding_grids.i: scheme_make_bounding_grids.cc.i
@@ -283,7 +283,7 @@ scheme_make_bounding_grids.i: scheme_make_bounding_grids.cc.i
 
 # target to preprocess a source file
 scheme_make_bounding_grids.cc.i:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/build.make apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/scheme_make_bounding_grids.cc.i
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/build.make apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/scheme_make_bounding_grids.cc.i
 .PHONY : scheme_make_bounding_grids.cc.i
 
 scheme_make_bounding_grids.s: scheme_make_bounding_grids.cc.s
@@ -292,7 +292,7 @@ scheme_make_bounding_grids.s: scheme_make_bounding_grids.cc.s
 
 # target to generate assembly for a file
 scheme_make_bounding_grids.cc.s:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/build.make apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/scheme_make_bounding_grids.cc.s
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/build.make apps/rosetta/CMakeFiles/scheme_make_bounding_grids.dir/scheme_make_bounding_grids.cc.s
 .PHONY : scheme_make_bounding_grids.cc.s
 
 test_librosetta.o: test_librosetta.cc.o
@@ -301,7 +301,7 @@ test_librosetta.o: test_librosetta.cc.o
 
 # target to build an object file
 test_librosetta.cc.o:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/test_librosetta.dir/build.make apps/rosetta/CMakeFiles/test_librosetta.dir/test_librosetta.cc.o
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/test_librosetta.dir/build.make apps/rosetta/CMakeFiles/test_librosetta.dir/test_librosetta.cc.o
 .PHONY : test_librosetta.cc.o
 
 test_librosetta.i: test_librosetta.cc.i
@@ -310,7 +310,7 @@ test_librosetta.i: test_librosetta.cc.i
 
 # target to preprocess a source file
 test_librosetta.cc.i:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/test_librosetta.dir/build.make apps/rosetta/CMakeFiles/test_librosetta.dir/test_librosetta.cc.i
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/test_librosetta.dir/build.make apps/rosetta/CMakeFiles/test_librosetta.dir/test_librosetta.cc.i
 .PHONY : test_librosetta.cc.i
 
 test_librosetta.s: test_librosetta.cc.s
@@ -319,7 +319,7 @@ test_librosetta.s: test_librosetta.cc.s
 
 # target to generate assembly for a file
 test_librosetta.cc.s:
-	cd /home/longxing/Rifdock/rifdock/build && $(MAKE) -f apps/rosetta/CMakeFiles/test_librosetta.dir/build.make apps/rosetta/CMakeFiles/test_librosetta.dir/test_librosetta.cc.s
+	cd /home/longxing/devel/rifdock-lx/build && $(MAKE) -f apps/rosetta/CMakeFiles/test_librosetta.dir/build.make apps/rosetta/CMakeFiles/test_librosetta.dir/test_librosetta.cc.s
 .PHONY : test_librosetta.cc.s
 
 # Help Target
@@ -361,6 +361,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/longxing/Rifdock/rifdock/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/longxing/devel/rifdock-lx/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

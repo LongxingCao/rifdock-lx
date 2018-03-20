@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/longxing/Rifdock/rifdock
+CMAKE_SOURCE_DIR = /home/longxing/devel/rifdock-lx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/longxing/Rifdock/rifdock/build
+CMAKE_BINARY_DIR = /home/longxing/devel/rifdock-lx/build
 
 # Include any dependencies generated for this target.
 include apps/rosetta/riflib/CMakeFiles/riflib.dir/depend.make
@@ -57,42 +57,66 @@ include apps/rosetta/riflib/CMakeFiles/riflib.dir/progress.make
 # Include the compile flags for this target's objects.
 include apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
-apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o: ../apps/rosetta/riflib/util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/util.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/util.cc
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o: ../apps/rosetta/riflib/RotamerGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/RotamerGenerator.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/RotamerGenerator.cc
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/util.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/util.cc > CMakeFiles/riflib.dir/util.cc.i
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/RotamerGenerator.cc.i"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/RotamerGenerator.cc > CMakeFiles/riflib.dir/RotamerGenerator.cc.i
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/util.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/util.cc -o CMakeFiles/riflib.dir/util.cc.s
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/RotamerGenerator.cc.s"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/RotamerGenerator.cc -o CMakeFiles/riflib.dir/RotamerGenerator.cc.s
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.requires:
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.requires:
 
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.requires
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.requires
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.requires
-	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.provides.build
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.provides
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.requires
+	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.provides.build
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.provides
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o
+
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o: ../apps/rosetta/riflib/RifFactory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/RifFactory.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/RifFactory.cc
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/RifFactory.cc.i"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/RifFactory.cc > CMakeFiles/riflib.dir/RifFactory.cc.i
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/RifFactory.cc.s"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/RifFactory.cc -o CMakeFiles/riflib.dir/RifFactory.cc.s
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.requires:
+
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.requires
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.requires
+	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.provides.build
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.provides
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o
 
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.o: ../apps/rosetta/riflib/rosetta_field.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rosetta_field.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rosetta_field.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rosetta_field.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rosetta_field.cc
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/rosetta_field.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rosetta_field.cc > CMakeFiles/riflib.dir/rosetta_field.cc.i
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rosetta_field.cc > CMakeFiles/riflib.dir/rosetta_field.cc.i
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/rosetta_field.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rosetta_field.cc -o CMakeFiles/riflib.dir/rosetta_field.cc.s
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rosetta_field.cc -o CMakeFiles/riflib.dir/rosetta_field.cc.s
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.o.requires:
 
@@ -107,16 +131,16 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.o.provides.build: app
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
 apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o: ../apps/rosetta/riflib/HBondedPairGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/HBondedPairGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/HBondedPairGenerator.cc
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/HBondedPairGenerator.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/HBondedPairGenerator.cc > CMakeFiles/riflib.dir/HBondedPairGenerator.cc.i
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/HBondedPairGenerator.cc > CMakeFiles/riflib.dir/HBondedPairGenerator.cc.i
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/HBondedPairGenerator.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/HBondedPairGenerator.cc -o CMakeFiles/riflib.dir/HBondedPairGenerator.cc.s
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/HBondedPairGenerator.cc -o CMakeFiles/riflib.dir/HBondedPairGenerator.cc.s
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o.requires:
 
@@ -129,18 +153,42 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o.provides: ap
 apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o
 
 
+apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
+apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o: ../apps/rosetta/riflib/util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/util.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/util.cc
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/util.cc.i"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/util.cc > CMakeFiles/riflib.dir/util.cc.i
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/util.cc.s"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/util.cc -o CMakeFiles/riflib.dir/util.cc.s
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.requires:
+
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.requires
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.requires
+	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.provides.build
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.provides
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o
+
+
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o: ../apps/rosetta/riflib/rotamer_energy_tables.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rotamer_energy_tables.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rotamer_energy_tables.cc
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/rotamer_energy_tables.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rotamer_energy_tables.cc > CMakeFiles/riflib.dir/rotamer_energy_tables.cc.i
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rotamer_energy_tables.cc > CMakeFiles/riflib.dir/rotamer_energy_tables.cc.i
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/rotamer_energy_tables.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rotamer_energy_tables.cc -o CMakeFiles/riflib.dir/rotamer_energy_tables.cc.s
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rotamer_energy_tables.cc -o CMakeFiles/riflib.dir/rotamer_energy_tables.cc.s
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o.requires:
 
@@ -153,42 +201,18 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o.provides: a
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o
 
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o: ../apps/rosetta/riflib/RifFactory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/RifFactory.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/RifFactory.cc
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/RifFactory.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/RifFactory.cc > CMakeFiles/riflib.dir/RifFactory.cc.i
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/RifFactory.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/RifFactory.cc -o CMakeFiles/riflib.dir/RifFactory.cc.s
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.requires:
-
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.requires
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.requires
-	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.provides.build
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.provides
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o
-
-
 apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
 apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o: ../apps/rosetta/riflib/EtableParams_init.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/EtableParams_init.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/EtableParams_init.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/EtableParams_init.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/EtableParams_init.cc
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/EtableParams_init.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/EtableParams_init.cc > CMakeFiles/riflib.dir/EtableParams_init.cc.i
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/EtableParams_init.cc > CMakeFiles/riflib.dir/EtableParams_init.cc.i
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/EtableParams_init.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/EtableParams_init.cc -o CMakeFiles/riflib.dir/EtableParams_init.cc.s
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/EtableParams_init.cc -o CMakeFiles/riflib.dir/EtableParams_init.cc.s
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o.requires:
 
@@ -201,90 +225,18 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o.provides: apps/
 apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o
 
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o: ../apps/rosetta/riflib/RotamerGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/RotamerGenerator.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/RotamerGenerator.cc
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/RotamerGenerator.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/RotamerGenerator.cc > CMakeFiles/riflib.dir/RotamerGenerator.cc.i
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/RotamerGenerator.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/RotamerGenerator.cc -o CMakeFiles/riflib.dir/RotamerGenerator.cc.s
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.requires:
-
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.requires
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.requires
-	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.provides.build
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.provides
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o
-
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o: ../apps/rosetta/riflib/scaffold/NineAManager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/NineAManager.cc
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/scaffold/NineAManager.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/NineAManager.cc > CMakeFiles/riflib.dir/scaffold/NineAManager.cc.i
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/scaffold/NineAManager.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/NineAManager.cc -o CMakeFiles/riflib.dir/scaffold/NineAManager.cc.s
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.requires:
-
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.requires
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.requires
-	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.provides.build
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.provides
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o
-
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o: ../apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc > CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.i
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc -o CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.s
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.requires:
-
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.requires
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.requires
-	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.provides.build
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.provides
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o
-
-
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o: ../apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc > CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.i
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc > CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.i
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc -o CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.s
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc -o CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.s
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o.requires:
 
@@ -297,42 +249,42 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o
 
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o: ../apps/rosetta/riflib/scaffold/util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/scaffold/util.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/util.cc
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o: ../apps/rosetta/riflib/scaffold/NineAManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/NineAManager.cc
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/scaffold/util.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/util.cc > CMakeFiles/riflib.dir/scaffold/util.cc.i
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/scaffold/NineAManager.cc.i"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/NineAManager.cc > CMakeFiles/riflib.dir/scaffold/NineAManager.cc.i
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/scaffold/util.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/util.cc -o CMakeFiles/riflib.dir/scaffold/util.cc.s
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/scaffold/NineAManager.cc.s"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/NineAManager.cc -o CMakeFiles/riflib.dir/scaffold/NineAManager.cc.s
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.requires:
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.requires:
 
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.requires
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.requires
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.requires
-	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.provides.build
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.provides
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.requires
+	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.provides.build
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.provides
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o
 
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o: ../apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc > CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.i
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc > CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.i
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc -o CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.s
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc -o CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.s
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o.requires:
 
@@ -345,18 +297,66 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o
 apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o
 
 
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o: ../apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.i"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc > CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.i
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.s"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc -o CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.s
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.requires:
+
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.requires
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.requires
+	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.provides.build
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.provides
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o
+
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o: ../apps/rosetta/riflib/scaffold/util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/scaffold/util.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/util.cc
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/scaffold/util.cc.i"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/util.cc > CMakeFiles/riflib.dir/scaffold/util.cc.i
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/scaffold/util.cc.s"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/util.cc -o CMakeFiles/riflib.dir/scaffold/util.cc.s
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.requires:
+
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.requires
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.requires
+	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.provides.build
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.provides
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o
+
+
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o: ../apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc > CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.i
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc > CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.i
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc -o CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.s
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc -o CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.s
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o.requires:
 
@@ -371,16 +371,16 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o.prov
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o: ../apps/rosetta/riflib/rif/make_hbond_geometries.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/make_hbond_geometries.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/make_hbond_geometries.cc
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/make_hbond_geometries.cc > CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.i
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/make_hbond_geometries.cc > CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.i
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/make_hbond_geometries.cc -o CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.s
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/make_hbond_geometries.cc -o CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.s
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o.requires:
 
@@ -393,42 +393,18 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o.provide
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o
 
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
-apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o: ../apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc > CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.i
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc -o CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.s
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.requires:
-
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.requires
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.requires
-	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.provides.build
-.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.provides
-
-apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o
-
-
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o: ../apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o -c /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.i"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc > CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.i
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc > CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.i
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.s"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc -o CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.s
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc -o CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.s
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o.requires:
 
@@ -441,78 +417,102 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o.provid
 apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o
 
 
+apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o: apps/rosetta/riflib/CMakeFiles/riflib.dir/flags.make
+apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o: ../apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o -c /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.i"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc > CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.i
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.s"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc -o CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.s
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.requires:
+
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.requires
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.provides: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.requires
+	$(MAKE) -f apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.provides.build
+.PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.provides
+
+apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.provides.build: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o
+
+
 # Object files for target riflib
 riflib_OBJECTS = \
-"CMakeFiles/riflib.dir/util.cc.o" \
+"CMakeFiles/riflib.dir/RotamerGenerator.cc.o" \
+"CMakeFiles/riflib.dir/RifFactory.cc.o" \
 "CMakeFiles/riflib.dir/rosetta_field.cc.o" \
 "CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o" \
+"CMakeFiles/riflib.dir/util.cc.o" \
 "CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o" \
-"CMakeFiles/riflib.dir/RifFactory.cc.o" \
 "CMakeFiles/riflib.dir/EtableParams_init.cc.o" \
-"CMakeFiles/riflib.dir/RotamerGenerator.cc.o" \
-"CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o" \
-"CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o" \
 "CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o" \
-"CMakeFiles/riflib.dir/scaffold/util.cc.o" \
+"CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o" \
 "CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o" \
+"CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o" \
+"CMakeFiles/riflib.dir/scaffold/util.cc.o" \
 "CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o" \
 "CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o" \
-"CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o" \
-"CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o"
+"CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o" \
+"CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o"
 
 # External object files for target riflib
 riflib_EXTERNAL_OBJECTS =
 
-apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o
+apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o
+apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.o
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o
+apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o
-apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o
-apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o
-apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o
-apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o
-apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o
+apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o
+apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o
+apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o
-apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o
+apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/build.make
 apps/rosetta/riflib/libriflib.so: apps/rosetta/riflib/CMakeFiles/riflib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/longxing/Rifdock/rifdock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library libriflib.so"
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/riflib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/longxing/devel/rifdock-lx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library libriflib.so"
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/riflib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 apps/rosetta/riflib/CMakeFiles/riflib.dir/build: apps/rosetta/riflib/libriflib.so
 
 .PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/build
 
-apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.requires
+apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.requires
+apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.requires
 apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.o.requires
 apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o.requires
+apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o.requires
 apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o.requires
-apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o.requires
 apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o.requires
-apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o.requires
-apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.requires
-apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.requires
 apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc.o.requires
-apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.requires
+apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o.requires
 apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o.requires
+apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc.o.requires
+apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o.requires
 apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o.requires
 apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o.requires
-apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.requires
 apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o.requires
+apps/rosetta/riflib/CMakeFiles/riflib.dir/requires: apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o.requires
 
 .PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/requires
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/clean:
-	cd /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib && $(CMAKE_COMMAND) -P CMakeFiles/riflib.dir/cmake_clean.cmake
+	cd /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib && $(CMAKE_COMMAND) -P CMakeFiles/riflib.dir/cmake_clean.cmake
 .PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/clean
 
 apps/rosetta/riflib/CMakeFiles/riflib.dir/depend:
-	cd /home/longxing/Rifdock/rifdock/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longxing/Rifdock/rifdock /home/longxing/Rifdock/rifdock/apps/rosetta/riflib /home/longxing/Rifdock/rifdock/build /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib /home/longxing/Rifdock/rifdock/build/apps/rosetta/riflib/CMakeFiles/riflib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/longxing/devel/rifdock-lx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longxing/devel/rifdock-lx /home/longxing/devel/rifdock-lx/apps/rosetta/riflib /home/longxing/devel/rifdock-lx/build /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib /home/longxing/devel/rifdock-lx/build/apps/rosetta/riflib/CMakeFiles/riflib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/rosetta/riflib/CMakeFiles/riflib.dir/depend
 

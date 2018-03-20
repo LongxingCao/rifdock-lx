@@ -1,4 +1,4 @@
-# Install script for directory: /home/longxing/Rifdock/rifdock/schemelib/test
+# Install script for directory: /home/longxing/devel/rifdock-lx/schemelib/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

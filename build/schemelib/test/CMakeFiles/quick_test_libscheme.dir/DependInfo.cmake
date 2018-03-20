@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/longxing/Rifdock/rifdock/schemelib/test/quick_test.cc" "/home/longxing/Rifdock/rifdock/build/schemelib/test/CMakeFiles/quick_test_libscheme.dir/quick_test.cc.o"
+  "/home/longxing/devel/rifdock-lx/schemelib/test/quick_test.cc" "/home/longxing/devel/rifdock-lx/build/schemelib/test/CMakeFiles/quick_test_libscheme.dir/quick_test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,8 +26,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/longxing/Rifdock/rifdock/build/schemelib/test/CMakeFiles/scheme.dir/DependInfo.cmake"
-  "/home/longxing/Rifdock/rifdock/build/external/gmock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/home/longxing/devel/rifdock-lx/build/schemelib/test/CMakeFiles/scheme.dir/DependInfo.cmake"
+  "/home/longxing/devel/rifdock-lx/build/external/gmock/CMakeFiles/gmock.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

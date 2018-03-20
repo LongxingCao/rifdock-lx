@@ -1562,7 +1562,7 @@ cstddef
 stdint.h
 -
 
-/home/longxing/Rifdock/rifdock/apps/rosetta/rifgen.cc
+/home/longxing/devel/rifdock-lx/apps/rosetta/rifgen.cc
 ObjexxFCL/FArray3D.hh
 -
 ObjexxFCL/format.hh

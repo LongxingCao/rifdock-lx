@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -w -fno-omit-frame-pointer -Wall -Wextra -Werror -O3 -DN
 
 CXX_DEFINES = -DCXX11
 
-CXX_INCLUDES = -I/home/longxing/Rifdock/rifdock/external/eigen3 -I/home/longxing/Rifdock/rifdock/external/gmock/gtest/include -I/home/longxing/Rifdock/rifdock/external/gmock/include -I/home/longxing/Rifdock/rifdock/external/include -I/home/longxing/Rifdock/rifdock/schemelib -I/usr/local/include -I/home/longxing/Rifdock/rifdock/schemelib/test/. 
+CXX_INCLUDES = -I/home/longxing/devel/rifdock-lx/external/eigen3 -I/home/longxing/devel/rifdock-lx/external/gmock/gtest/include -I/home/longxing/devel/rifdock-lx/external/gmock/include -I/home/longxing/devel/rifdock-lx/external/include -I/home/longxing/devel/rifdock-lx/schemelib -I/usr/local/include -I/home/longxing/devel/rifdock-lx/schemelib/test/. 
 

@@ -5,7 +5,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/EtableParams_init.cc.o
  ../apps/rosetta/./riflib/EtableParams_init.hh
  ../schemelib/scheme/rosetta/score/CubicPolynomial.hh
  ../schemelib/scheme/rosetta/score/EtableParams.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/EtableParams_init.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/EtableParams_init.cc
 apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o
  ../apps/rosetta/./riflib/HBondedPairGenerator.hh
  ../apps/rosetta/./riflib/RotamerGenerator.hh
@@ -223,7 +223,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/HBondedPairGenerator.cc.o
  ../schemelib/scheme/util/SimpleArray.hh
  ../schemelib/scheme/util/assert.hh
  ../schemelib/scheme/util/str.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/HBondedPairGenerator.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/HBondedPairGenerator.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
@@ -2052,7 +2052,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/RifFactory.cc.o
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/RifFactory.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/RifFactory.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
@@ -4307,7 +4307,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/RotamerGenerator.cc.o
  ../schemelib/scheme/util/SimpleArray.hh
  ../schemelib/scheme/util/assert.hh
  ../schemelib/scheme/util/str.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/RotamerGenerator.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/RotamerGenerator.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
@@ -6291,7 +6291,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorApoHSearch.cc.o
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorApoHSearch.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/concept.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/config.hpp
@@ -8341,7 +8341,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorSimpleHbonds.cc.o
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorSimpleHbonds.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
@@ -10594,7 +10594,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/RifGeneratorUserHotspots.cc.o
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/RifGeneratorUserHotspots.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/concept.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/config.hpp
@@ -12412,7 +12412,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rif/make_hbond_geometries.cc.o
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rif/make_hbond_geometries.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rif/make_hbond_geometries.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
@@ -14781,7 +14781,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rosetta_field.cc.o
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rosetta_field.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rosetta_field.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/concept.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/config.hpp
@@ -16364,7 +16364,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/rotamer_energy_tables.cc.o
  ../schemelib/scheme/util/SimpleArray.hh
  ../schemelib/scheme/util/assert.hh
  ../schemelib/scheme/util/str.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/rotamer_energy_tables.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/rotamer_energy_tables.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/concept.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/config.hpp
@@ -18051,7 +18051,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/Baseline9AScaffoldProvider.cc
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/Baseline9AScaffoldProvider.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
@@ -20351,7 +20351,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/MorphingScaffoldProvider.cc.o
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/MorphingScaffoldProvider.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
@@ -22651,7 +22651,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/NineAManager.cc.o
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/NineAManager.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/NineAManager.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
@@ -24951,7 +24951,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/SingleFileScaffoldProvider.cc
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/SingleFileScaffoldProvider.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
@@ -27219,7 +27219,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/scaffold/util.cc.o
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/scaffold/util.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/scaffold/util.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
@@ -29499,7 +29499,7 @@ apps/rosetta/riflib/CMakeFiles/riflib.dir/util.cc.o
  ../schemelib/scheme/types.hh
  ../schemelib/scheme/util/SimpleArray.hh
  ../schemelib/scheme/util/assert.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/riflib/util.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/riflib/util.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/error_code.cpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/../libs/system/src/local_free_on_destruction.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp

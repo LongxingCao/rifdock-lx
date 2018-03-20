@@ -1,4 +1,4 @@
-# Install script for directory: /home/longxing/Rifdock/rifdock
+# Install script for directory: /home/longxing/devel/rifdock-lx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/longxing/Rifdock/rifdock/build/external/gmock/cmake_install.cmake")
-  include("/home/longxing/Rifdock/rifdock/build/schemelib/cmake_install.cmake")
-  include("/home/longxing/Rifdock/rifdock/build/apps/cmake_install.cmake")
+  include("/home/longxing/devel/rifdock-lx/build/external/gmock/cmake_install.cmake")
+  include("/home/longxing/devel/rifdock-lx/build/schemelib/cmake_install.cmake")
+  include("/home/longxing/devel/rifdock-lx/build/apps/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/longxing/Rifdock/rifdock/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/longxing/devel/rifdock-lx/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

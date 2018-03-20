@@ -1,4 +1,4 @@
-# Install script for directory: /home/longxing/Rifdock/rifdock/external/gmock/gtest
+# Install script for directory: /home/longxing/devel/rifdock-lx/external/gmock/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

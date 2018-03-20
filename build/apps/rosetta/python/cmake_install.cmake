@@ -1,4 +1,4 @@
-# Install script for directory: /home/longxing/Rifdock/rifdock/apps/rosetta/python
+# Install script for directory: /home/longxing/devel/rifdock-lx/apps/rosetta/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/pysetta" TYPE DIRECTORY FILES "/home/longxing/Rifdock/rifdock/apps/rosetta/python/pysetta/" FILES_MATCHING REGEX "/[^/]*\\.py$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/pysetta" TYPE DIRECTORY FILES "/home/longxing/devel/rifdock-lx/apps/rosetta/python/pysetta/" FILES_MATCHING REGEX "/[^/]*\\.py$")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/longxing/Rifdock/rifdock/build/apps/rosetta/python/pysetta/cmake_install.cmake")
-  include("/home/longxing/Rifdock/rifdock/build/apps/rosetta/python/test/cmake_install.cmake")
+  include("/home/longxing/devel/rifdock-lx/build/apps/rosetta/python/pysetta/cmake_install.cmake")
+  include("/home/longxing/devel/rifdock-lx/build/apps/rosetta/python/test/cmake_install.cmake")
 
 endif()
 

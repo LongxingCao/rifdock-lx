@@ -1,4 +1,4 @@
-# Install script for directory: /home/longxing/Rifdock/rifdock/apps
+# Install script for directory: /home/longxing/devel/rifdock-lx/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/longxing/Rifdock/rifdock/build/apps/rosetta/cmake_install.cmake")
+  include("/home/longxing/devel/rifdock-lx/build/apps/rosetta/cmake_install.cmake")
 
 endif()
 

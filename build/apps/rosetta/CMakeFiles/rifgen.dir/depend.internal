@@ -252,7 +252,7 @@ apps/rosetta/CMakeFiles/rifgen.dir/rifgen.cc.o
  ../schemelib/scheme/util/str.hh
  ../schemelib/scheme/util/template_loop.hh
  ../schemelib/scheme/util/template_math.hh
- /home/longxing/Rifdock/rifdock/apps/rosetta/rifgen.cc
+ /home/longxing/devel/rifdock-lx/apps/rosetta/rifgen.cc
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/compare.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/concept.hpp
  /home/longxing/rosetta-master/source/external/boost_1_55_0/boost/algorithm/string/config.hpp

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/longxing/Rifdock/rifdock/external/gmock/gtest/src/gtest_main.cc" "/home/longxing/Rifdock/rifdock/build/external/gmock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+  "/home/longxing/devel/rifdock-lx/external/gmock/gtest/src/gtest_main.cc" "/home/longxing/devel/rifdock-lx/build/external/gmock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,7 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/longxing/Rifdock/rifdock/build/external/gmock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/longxing/devel/rifdock-lx/build/external/gmock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
